@@ -2,6 +2,18 @@
   padding: 0 22rem;
 }
 
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 5rem;
+  }
+}
+
+@media (max-width: 434px) {
+  .container {
+    padding: 0 1rem;
+  }
+}
+
 .form {
   display: flex;
   justify-content: center;
